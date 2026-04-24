@@ -1,0 +1,39 @@
+mkdir backend
+mkdir frontend
+
+npm init -y (Install npm to backend)
+
+install express and mongodb 
+npm install express mongoose cors dotenv
+
+install dev package
+npm install nodemon --save -dev
+
+
+create .env file in both frontend and backend
+
+
+frontend 
+npm create vite@latest
+          or
+npm create vite@7
+
+
+this is to when using a another account to push 
+git remote set-url origin https://github.com/IT24104076/wmtLab.git
+git remote -v
+
+git push -u origin main
+
+
+
+That folder is probably another Git repo inside your repo. Remove its hidden .git folder:
+rmdir /s /q "frontend\lab test\.git"
+
+
+Then add and commit again:
+git add backend frontend
+git commit -m "Add backend and frontend"
+git push -u origin main
+
+
